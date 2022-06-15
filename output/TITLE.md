@@ -1,6 +1,6 @@
-# title
+# Title
 
-<img src="https://img.shields.io/badge/license-CC-purple" alt="CC" height="44">
+<img src="https://img.shields.io/badge/license-BSD-purple" alt="BSD" height="40">
 
 
 ## Table of Contents
@@ -14,22 +14,22 @@
 - [Questions](#questions)
 
 ## Description
-description
+This is a description.
 
 ## Installation
-install
+This is installation instructions.
 
 ## Usage
-usage
+This is usage details.
 
 ## License
-CC
+BSD
 
 ## Contributing
-contribute
+This is contribution information.
 
 ## Tests
-test
+This is testing information
 
 ## Questions
-github
+Contact me on my GitHub at bureizu742.

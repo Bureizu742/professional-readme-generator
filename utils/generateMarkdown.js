@@ -5,15 +5,15 @@ const fs = require('fs');
 const renderLicenseBadge = (type) => {
   let color;
   if (type === "MPL") color = "red";
-  if (type === "GPL") color = "gray";
-  if (type === "Apache") color = "green";
-  if (type === "MIT") color = "blue";
-  if (type === "CC") color = "purple";
-  if (type === "BSD") color = "goldenrod";
+  if (type === "GPL") color = "orange";
+  if (type === "Apache") color = "goldenrod";
+  if (type === "MIT") color = "green";
+  if (type === "CC") color = "blue";
+  if (type === "BSD") color = "purple";
 
   return (
 `
-<img src="https://img.shields.io/badge/license-${type}-${color}" alt="${type}" height="44">
+<img src="https://img.shields.io/badge/license-${type}-${color}" alt="${type}" height="40">
 `
   )
 }
@@ -54,7 +54,7 @@ ${contributing}
 ${tests}
 
 ## Questions
-${github}`
+Contact me on my GitHub at ${github}.`
   );
   fs.writeFileSync(`./output/${title.toUpperCase()}.md`, template);
   console.log('README GENERATED!');
